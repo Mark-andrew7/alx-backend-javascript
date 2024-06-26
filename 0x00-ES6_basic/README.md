@@ -1,0 +1,1 @@
+This project has mini tasks which cover ES6 basics of javascript
