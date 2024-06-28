@@ -1,0 +1,1 @@
+This is a javascript project with mini tasks which focuses on the understanding of javascript classes
