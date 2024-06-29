@@ -24,7 +24,7 @@ export default class Pricing {
 
   verifyType(value, expectedType, attributeName) {
     if (typeof value !== expectedType) {
-      throw new TypeError(`${attributeName} must be a ${expectedType}`)
+      throw new TypeError(`${attributeName} must be a ${expectedType}`);
     }
     return value;
   }
