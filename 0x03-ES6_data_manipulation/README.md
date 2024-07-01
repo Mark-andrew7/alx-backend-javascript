@@ -1,0 +1,1 @@
+This is a JavaScript project that focuses on data manipulation
