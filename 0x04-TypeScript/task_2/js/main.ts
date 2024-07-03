@@ -45,7 +45,15 @@ interface DirectorInterface {
       return new Director();
     }
   }
+
+  function isDirector(employee: any): employee is Director {
+    return employee instanceof Director;
+  }
   
-  console.log(createEmployee(200));
-  console.log(createEmployee(1000));
-  console.log(createEmployee('$500'));  
+  function executeWork(employee: Director | Teacher) {
+    if (isDirector(employee)) {
+      console.log(employee.workDirectorTasks());
+    } else {
+      console.log(employee.workTeacherTasks());
+    }
+  }
